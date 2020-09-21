@@ -1,2 +1,1 @@
-# TicTacToeApp
-Made in Kotlin
+#Tic Tac Toe Game made in Kotlin
