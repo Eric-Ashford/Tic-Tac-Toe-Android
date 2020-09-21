@@ -1,6 +1,6 @@
 # A app of the popular game known as Tic Tac Toe.
 ## By Eric Ashford
-### Goal:
+### Project Goal
 > The goal of this project was to recreate Tic Tac Toe for the android device in Kotlin.
 
 ### Accomplishments
