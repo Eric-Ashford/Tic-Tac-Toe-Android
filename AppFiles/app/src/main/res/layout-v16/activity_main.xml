@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/appBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_animation"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="150pt"
+        android:layout_height="40pt"
+        android:layout_marginBottom="30pt"
+        android:fontFamily="cursive"
+        app:fontFamily="cursive"
+        android:gravity="center"
+        android:text="TicTacToe"
+        android:textColor="#F9F9F9"
+        android:textSize="36pt" />
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3pt"
+        android:gravity="center"
+        style="?android:attr/buttonBarStyle">
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="5pt"
+            android:background="#AEF9F9F9"
+            android:onClick="buClick"
+            android:textSize="36sp"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="3pt"
+            android:layout_marginRight="3pt"
+            android:background="#AEF9F9F9"
+            android:onClick="buClick"
+            android:textSize="36sp"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="40pt"
+            android:layout_marginRight="5pt"
+            android:background="#AEF9F9F9"
+            android:onClick="buClick"
+            android:textSize="36sp"
+            style="?android:attr/buttonBarButtonStyle"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3pt"
+        android:gravity="center"
+        style="?android:attr/buttonBarStyle">
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="5pt"
+            android:background="#AEF9F9F9"
+            android:onClick="buClick"
+            android:textSize="36sp"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="3pt"
+            android:layout_marginRight="3pt"
+            android:background="#AEF9F9F9"
+            android:onClick="buClick"
+            android:textSize="36sp"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="5pt"
+            android:background="#AEF9F9F9"
+            android:onClick="buClick"
+            android:textSize="36sp"
+            style="?android:attr/buttonBarButtonStyle"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3pt"
+        android:gravity="center"
+        style="?android:attr/buttonBarStyle">
+
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="5pt"
+            android:background="#AEF9F9F9"
+            android:onClick="buClick"
+            android:textSize="36sp"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="3pt"
+            android:layout_marginRight="3pt"
+            android:background="#AEF9F9F9"
+            android:onClick="buClick"
+            android:textSize="36sp"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="5pt"
+            android:background="#AEF9F9F9"
+            android:onClick="buClick"
+            android:textSize="36sp"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20pt"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/player1Wins"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="P1:"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            app:fontFamily="cursive" />
+
+        <TextView
+            android:id="@+id/playerSpace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30sp"
+            app:fontFamily="cursive" />
+
+        <TextView
+            android:id="@+id/player2Wins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="P2: "
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            app:fontFamily="cursive" />
+
+    </TableRow>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="cursive"
+        android:gravity="end"
+        android:text="@string/author"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:targetApi="jelly_bean" />
+
+
+</TableLayout>
